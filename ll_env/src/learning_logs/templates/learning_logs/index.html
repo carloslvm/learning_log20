@@ -1,0 +1,9 @@
+<p>Learning Log -
+Hello, {{ user.username}} -
+<a href="{% url 'users:logout' %}">Log out</a>
+</p>
+
+{% block content %}
+<p>Learning Log helps you track your learning, for any topic you're learning about.</p>
+{% endblock content %}
+
